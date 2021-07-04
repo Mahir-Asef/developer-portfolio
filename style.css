@@ -10,6 +10,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 50px;
    
 }
 .image-button{
@@ -25,7 +26,7 @@ section{
     padding-left: 2%;
 }
 .half-width img{
-    width: 80%;
+    width: 60%;
     border-radius: 50px;
     border-color: red;
     padding-left: 20px;
@@ -34,4 +35,29 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.middle-half-width{
+    width: 50%;
+    padding-top: 5%;
+}
+
+.middle-half-width img{
+   width: 80%;
+   border-radius: 50px;
+   border-color: orangered;
+   border-style: dotted;
+
+}
+.middle-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    font-weight:700 ;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+.middle-banner{
+background-image: url(images/dream-bg.png);
+background-repeat: no-repeat;
+background-position:right;
+
 }
